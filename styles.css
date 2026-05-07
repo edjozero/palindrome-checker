@@ -1,5 +1,5 @@
 body{
-    background-color: #288228;
+    background-color: #144714;
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -13,7 +13,7 @@ h1{
     padding: 20px;
     text-align: center;
     width: 50%;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 
 #text-input{
@@ -35,17 +35,17 @@ h1{
     border: 5px solid #000;
     border-radius: 20px;
     cursor: pointer;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT',sans-serif;
 }
 
 #result{
-    background-color: #fff;
-    color: #000;
+    background-color: #821582;
+    color: #fff;
     border: 5px solid #000;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
     width: 50%;
     margin: 20px auto;
-    font-size: 24px;
+    font-size: 36px;
 }
