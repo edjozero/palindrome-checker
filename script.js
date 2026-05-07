@@ -6,7 +6,7 @@ checkBtn.addEventListener('click', () => {
     const text = textInput.value;
 
     if(text === '') {
-        resultDiv.textContent = 'Please enter a string.';
+        alert('Please input a value');
         return;
     }
     
@@ -17,9 +17,9 @@ checkBtn.addEventListener('click', () => {
 
     // check if the regex is the same as the reversed text
     if(regex === reversedText) {
-        resultDiv.textContent = `"${text}" is a palindrome.`;
+        resultDiv.textContent = `${text} is a palindrome.`;
     } else {
-        resultDiv.textContent = `"${text}" is not a palindrome.`;
+        resultDiv.textContent = `${text} is not a palindrome.`;
     }
 
     textInput.value = '';
